@@ -1,0 +1,26 @@
+.product {
+  background-color: #add8ef;
+  padding: 16px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.16);
+  cursor: pointer;
+  border: 2px solid transparent;
+  user-select: none;
+  &:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16);
+    border: 2px solid #57afde;
+  }
+}
+
+.name {
+  margin: 0 0 16px;
+  font-size: 32px;
+  line-height: 40px;
+}
+
+.price {
+  margin: 0;
+  text-align: end;
+  font-size: 24px;
+  line-height: 32px;
+}
